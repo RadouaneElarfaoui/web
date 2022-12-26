@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style type="text/css">
+.div {
+position: relative;
+background-color: rgb(191, 232, 252);
+border: 3px;
+border-radius: 10px;
+border-color: rgb(29, 2, 41);
+border-style: solid;
+width:100%;
+margin: 0;
+}
+.button{
+    background-color: rgb(88, 6, 155);
+    text-overflow: clip;
+    color: rgb(246, 241, 241);
+    margin: 5px;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    font-size:x-large;
+}
+</style>
+</head>
+
+<body align='center'>
+<div class="div">
+    <h1>Login</h1><br>
+    <form class="form" action='log_in.php' method='post'>
+        <label for='userName'>Email</label>
+        <input type='text' name='userEmail' id='userEmail'><br><br>
+        <label for='userPassword'>Password</label>
+        <input  type='password' name='userPassword' id='userPassword'><br><br>
+        <input class="button" type='submit' value='Done'>
+    </form>
+</div>
+</body>
+
+</html>
